@@ -26,9 +26,9 @@ $(document).ready(function(){
         }
     });
 
-    $(document).on('click', 'li p', function(){
+    $(document).on('click', 'li', function(){
         $(this).toggleClass('tarefa-concluida');
-    });
+    });    
 
     $(document).on('click', '.remover-tarefa', function(){
         $(this).parent().fadeOut(500, function(){ 
